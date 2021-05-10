@@ -8,9 +8,9 @@
         <ul>
   
           
-           <li class='imagesearch'><a href="imgsearch.html">Images</a></li>
+          
            <li class='advancedsearch'><a href="advancedsearch.html">Advanced Search</a></li>
-           <li class='home'><a href="index.html">Home</a></li>    
+           <li class='home'><a href="index.html">Google Search</a></li>    
         </ul>
 
     </head>
@@ -22,11 +22,13 @@
 
        
             
-            <form action="https://google.com/search">
+            <form action="https://www.google.com/search" method="get">
                 <div class='bar'>
-                    <input class='searchbar' type="text" placeholder="Search Image">
+                    <input class='searchbar' type="text" placeholder="Search Image" name='q'>
+                  
         
                 </div>
+                <input type="hidden" name="tbm" value="isch" />
             </form>
        
             
