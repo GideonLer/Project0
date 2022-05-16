@@ -3,10 +3,44 @@ header{
   text-align: center;
   margin-bottom: 100px;
 }
+.logo-text{
+  font-family: "Helvetica", Arial,  sans-serif;
+  font-style: italic;
+  padding: 7px 7px; 
+  width : 140px;
+  text-decoration: none;
+  position: relative;
+  font-size: 30px;
+  bottom: 5px;
+}
 
+
+.link-text{
+  font-family: "Courier New", Courier, Monaco;
+  font-size: 12px;
+  font-weight: 100;
+}
 body{
   padding:0;
   margin:0;
+  /* font-family: "Courier New", Courier, Monaco; */
+}
+
+h2{
+  font-size: 12px;
+  font-weight:100
+}
+
+
+#logo-container{
+  width:140px;
+  margin : auto;
+  margin-bottom:25px;
+  background-color: red;
+  height: 38px; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #wrapper{
@@ -31,7 +65,7 @@ body{
 
 nav{
   padding-left: 40px;
-  border: 1px dashed lightblue;
+
  
 }
 
